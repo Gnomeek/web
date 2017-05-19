@@ -46,4 +46,39 @@ h2 {
   text-align: center;
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
+  line-height: 1;   /*line-height:1em==所有行高为继承下来字体的1倍，line-height：1==行高为内容各自行高的1倍*/
+  float: right;
+}
+
+#elixirs h2{
+  color:black;
+}
+#elixirs h3{
+  color: red;
+}
+
+#footer{
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.cd{
+  font-style: italic;
+}
+
+.artist{
+  font-weight: bold;
+}
+
+#elixirs a:link{
+  color: #007e7e;
+}
+#elixirs a:visited{
+  color: #333333;
+}
+#elixirs a:hover{
+  color: #0d5353;
+  background:#f88396;
 }
