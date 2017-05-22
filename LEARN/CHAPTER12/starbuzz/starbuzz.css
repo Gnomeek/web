@@ -5,47 +5,82 @@ body {
   margin:           0px;
 }
 
-#tablecontainer{
-  display:          table;
-  border-spacing:   10px;
-}
+/* 
+	height messes up the headers in the blog in the articles
+	it's only appropriate for the top header.
+	add a class (new with blog)
+	Affects the 3 #header rules for the main header below
+	In HTML: add class="top" to main header in index.html and blog.html
+*/
 
-#tablerow{
-  display:          table-row;
-}
-
-header {
+header.top {
   background-color: #675c47;
-  margin:           10px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
   height:           108px;
 }
 
-header img#headerslogan{
-  float:            right;
+header.top img#headerSlogan {
+	float: right;
 }
 
-section#drinks{
-  display:          table-cell;
+nav{
   background-color: #efe5d0;
-  width:            20%;
-  padding:          15px;
-  vertical-align:   top;
+  margin: 10px 10px 0px 10px;
 }
 
-section#main {
-  display:          table-cell;
+nav ul{
+  margin:0px;
+  list-style-type: none;
+  padding:5px 0px 5px 0px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link,nav ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+nav ul li.selected{
+  background-color: #c8b99c;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#drinks {
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* added section#blog for blog */
+section#main, section#blog {
+  display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  vertical-align:   top;
+  vertical-align: top;
 }
 
 aside {
-  display:          table-cell;
+  display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  vertical-align:   top;
+  vertical-align: top;
 }
 
 footer {
@@ -53,30 +88,16 @@ footer {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
   font-size:        90%;
-}
-
-#award{
-  position:         absolute;
-  top:              20px;
-  left:             365px;
-}
-
-#coupon{
-  position:         fixed;
-  top:              350px;
-  left:             -90px;
-}
-
-#coupon a,img{
-  border:           none;
 }
 
 h1 {
   font-size:        120%;
   color:            #954b4b;
 }
+
+h2 { font-size: 110%; }
 
 .slogan { color: #954b4b; }
 
@@ -94,4 +115,32 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+
+
+nav {
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+nav ul li.selected {
+	background-color: #c8b99c;
 }
