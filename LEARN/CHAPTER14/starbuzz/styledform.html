@@ -17,7 +17,7 @@
           Choose your beans:
 		</p>
 		<p>
-            <select name="beans">
+            <select name="beans" multiple=>
               <option value="House Blend">House Blend</option>
               <option value="Bolivia">Shade Grown Bolivia Supremo</option>
               <option value="Guatemala">Organic Guatemala</option>
@@ -28,9 +28,10 @@
 	<div class="tableRow">
 		<p> Type: </p>
 		<p>
-            <input type="radio" name="beantype" value="whole"> Whole bean<br>
-            <input type="radio" name="beantype" value="ground" checked> 
-            Ground
+            <input type="radio" name="beantype" value="whole" id="beantype_whole"> 
+            	<label for="beantype_whole">Whole bean</label><br>
+            <input type="radio" name="beantype" value="ground" id="beantype_ground" checked> 
+           		<label for="ground">Ground</label>
 		</p>
 	</div>
 	<div class="tableRow">
