@@ -7,17 +7,38 @@
 }
 
 .rtop{width: 300px; margin: 0 auto;}
-	.r{height: 1px;margin: 0 5px; background-color:black;}
-	.r1{height: 1px;margin: 0 3px; border-left: 1px solid black; border-right: 1px solid black;}
-	.r2{height: 1px;border-left: 1px solid black; border-right: 1px solid black;}
-	.r3{height: 1px;margin: 0 2px; border-left: 1px solid black; border-right: 1px solid black;}
-	.r4{height: 1px;margin: 0 1px; border-left: 1px solid black; border-right: 1px solid black;}
+.r{height: 1px;margin: 0 5px; background-color:black;}
+.r1{height: 1px;margin: 0 3px; border-left: 1px solid black; border-right: 1px solid black;}
+.r2{height: 1px;border-left: 1px solid black; border-right: 1px solid black;}
+.r3{height: 1px;margin: 0 2px; border-left: 1px solid black; border-right: 1px solid black;}
+.r4{height: 1px;margin: 0 1px; border-left: 1px solid black; border-right: 1px solid black;}
 .mid {border-left: 1px solid black; border-right: 1px solid black;}
 .mid p{margin:0 0; font-size: 12px; line-height: 1.5em; color: black;background-color: white;  text-indent: 2em; white-space: pre-wrap; padding:0 10px;}
-p{
-	border-width:20px;
-	border-radius: 15px;
-	border-color: black;
-	padding: 5px;
-	
+
+.divA{
+	float: left;
+	width: 100px;
+	background-color: red;
+}
+.divB{
+	background-color: blue;
+}
+.divC{
+	background-color: yellow;
+	float: right;
+}
+
+.main{        
+	float: left;       
+	width: 100%;   
+}  
+.sub{      
+	float: left;        
+	width: 190px;        
+	margin-left: -100%;    
+}   
+.extra {        
+	float: left;        
+	width: 190px;        
+	margin-left: -190px;   
 }
