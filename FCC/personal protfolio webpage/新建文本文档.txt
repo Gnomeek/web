@@ -28,19 +28,6 @@
 			</div>
 		</div>		
 	</div>
-	<a name="about"></a>
-	<div class="container about">
-		<div class="row">
-			<div class="col-md-6 col-xs-12 introduce">
-				<h3 class="text-center">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</h3>
-				<hr class="star-bright">
-				<h4 class="text-center">Web Developer - User Experience Designer - Graphic Artist</h4>
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<img src="http://r.photo.store.qq.com/psb?/V11SYeCq2G9KRf/WhcWsfRf9nwVD0DauprmyuQBflEwYqBB7aKyCZF4gOM!/r/dB4BAAAAAAAA" alt="A rabbit,or a cat?" class="head img-responsive">
-			</div>
-		</div>
-	</div>
 	<a name="portfolio"></a>
 	<div class="container portfolio">
 		<div class="row masonry-container">
@@ -135,23 +122,23 @@
 				</div>
 			</div>
 		</div> <!--/.masonry-container  --> 
-	</div>
+	</div><!-- /.container -->
 	<a name="contact"></a>
-	<div class="container contact">
-		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<h3>ABOUT THIS PAGE</h3>
-				<p>Made with <i class="fa fa-music"></i> and <i class="fa fa-coffee"></i> <br>by <a href="www.github.com/gnomeek">gnomeek</a></p>
+	<!--<div class="container">
+
+		<div class="row footer">
+			<div class="col-md-6 col-xs-12 ">
+				<h1>CONTACT ME:</h1>
 			</div>
 			<div class="col-md-6 col-xs-12">
-				<h3>ABOUT ME</h3>
-				<ul class="list-inline">
-					<li><a href="#" type="button" class="btn btn-default"><i class="fa fa-steam fa-fw"></i></a></li>
-					<li><a href="#" type="button" class="btn btn-default"><i class="fa fa-github fa-fw"></i></a></li>
-					<li><a href="#" type="button" class="btn btn-default"><i class="fa fa-linkedin fa-fw"></i></a></li>
+				<ul class="list-inline footer-social-button">
+					<li class="col-xs-12"><a href="#" type="button" class="btn btn-default"><i class="fa fa-steam fa-fw"></i><span class="network-name">Steam</span></a></li>
+					<li class="col-xs-12"><a href="#" type="button" class="btn btn-default"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a></li>
+					<li class="col-xs-12"><a href="#" type="button" class="btn btn-default"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">Linkedin</span></a></li>
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div>-->
+
 </body>
 </html>
